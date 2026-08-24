@@ -52,5 +52,4 @@ module pe_unit #(
         else if (enable)
             pe_out <= pe_out + x_input * weight;
     end
-
 endmodule
