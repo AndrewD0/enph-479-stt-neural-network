@@ -3,7 +3,7 @@
 //=====================================================================
 // Module: pe_unit.v
 // Description:
-//  Single Processing Element (PE). Computes one neuron's dot product
+//  Single Processing Element (PE). This module computes one neuron's dot product
 //  for one gate. Performs multiply-accumulate (MAC): on each enabled
 //  clock cycle, multiplies one input element by a weight element and
 //  adds the product to pe_output, which is a register that acts as a
